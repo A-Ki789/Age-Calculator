@@ -1,0 +1,56 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 60px;
+    border: 2px solid gray;
+    padding: 40px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.249);
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.main{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.main .question{
+    margin-bottom: 3px;
+}
+
+#birthday{
+    margin-bottom: 6px;
+    border: 1px solid gray;
+    padding:5px;
+    border-radius: 7px;
+}
+#submit{
+    border: none;
+    background-color: rgba(0, 0, 255, 0.638);
+    margin: auto;
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+
+#result{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
